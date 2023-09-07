@@ -8,7 +8,7 @@ public class Selection_Sort
 	public static void main(String[] args)
 	{
 		Scanner sobj = new Scanner(System.in);
-		System.out.print("Enter Max array size: ");
+		System.out.print("Enter Max array size: "); 
 		int n = sobj.nextInt();
 		Random random = new Random();
 		
