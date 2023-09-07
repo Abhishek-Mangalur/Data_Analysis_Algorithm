@@ -1,6 +1,4 @@
-import java.util.Scanner;
-import java.util.Arrays;
-import java.util.Random;
+import java.util.*;
 
 public class Selection_Sort
 {
@@ -17,7 +15,7 @@ public class Selection_Sort
 		for(int p = 0; p < n; p++)
 	        a[p] = random.nextInt(n); 
 
-		System.out.println("\nInput Array:");
+		System.out.println("\nRandom Generated Numbers are:");
 		for (int i = 0; i < n; i++)
         {
 			System.out.print(a[i]);
@@ -29,7 +27,7 @@ public class Selection_Sort
 		long stopTime = System.currentTimeMillis();
 		
 		long elapsedTime = stopTime - startTime;
-		System.out.println("\n\nSorted Array:");
+		System.out.println("\n\nSorted Numbers are:");
 		for (int i = 0; i < n; i++)
         {
 			System.out.print(a[i]);
