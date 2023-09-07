@@ -5,7 +5,7 @@ public class Selection_Sort
 	static final int MAX = 1000000;
 	static int[] a = new int[MAX];
 	
-    public static void main(String[] args)
+	public static void main(String[] args)
 	{
 		Scanner sobj = new Scanner(System.in);
 		System.out.print("Enter Max array size: ");
@@ -17,10 +17,10 @@ public class Selection_Sort
 
 		System.out.println("\nRandom Generated Numbers are:");
 		for (int i = 0; i < n; i++)
-        {
+        	{
 			System.out.print(a[i]);
-            System.out.print(" ");
-        }
+            		System.out.print(" ");
+        	}
 		
 		long startTime = System.currentTimeMillis();
 		Selection_sort(a,0,n);
@@ -29,11 +29,11 @@ public class Selection_Sort
 		long elapsedTime = stopTime - startTime;
 		System.out.println("\n\nSorted Numbers are:");
 		for (int i = 0; i < n; i++)
-        {
+        	{
 			System.out.print(a[i]);
-            System.out.print(" ");
-        }
-	    System.out.println("\n\nTime Complexity in seconds for " + n + " elements is: " + (double) elapsedTime/1000 );
+            		System.out.print(" ");
+        	}
+	    	System.out.println("\n\nTime Complexity in seconds for " + n + " elements is: " + (double) elapsedTime/1000 );
 	}
 	
 	public static void Selection_sort(int a[],int p,int r )
